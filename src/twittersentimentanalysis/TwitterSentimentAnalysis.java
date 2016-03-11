@@ -70,10 +70,10 @@ public class TwitterSentimentAnalysis {
     private static ConfigurationBuilder getAuthentication() {
         logger.info("getAuthentication()");
         ConfigurationBuilder cb = new ConfigurationBuilder();
-        cb.setOAuthConsumerKey("9BT6FbCsTcytgbwJ7VxAyQD8M");
-        cb.setOAuthConsumerSecret("xF5UK7HODhAm0oazHHN69DAcxheVv6FhMRQMII6XEaTy8tm8un");
-        cb.setOAuthAccessToken("1085852592-3RvAULajehASiHR4vzLTgfL42PGdzrvzXmhXR3X");
-        cb.setOAuthAccessTokenSecret("M6gDdcTLwsPTKHTyDxlHklCPJ0X3lR44xPa6ItCfXfTim");
+        cb.setOAuthConsumerKey("******************");
+        cb.setOAuthConsumerSecret("******************");
+        cb.setOAuthAccessToken("******************");
+        cb.setOAuthAccessTokenSecret("******************");
         return cb;
     }
 

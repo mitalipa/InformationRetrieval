@@ -24,9 +24,9 @@ public class Database {
     //get the database connection
     public static Connection getDatabaseConnection() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException
     {
-        String host = "ssttuttsa.cxrrvl79fcbm.us-west-2.rds.amazonaws.com";
-        String username = "ttu_ttsa";
-        String password = "rishabh01";
+        String host = "***********";
+        String username = "*********";
+        String password = "************";
         int port = 1433;
         String jdbcUrl = "jdbc:sqlserver://" + host + ":" +port ;
         Connection con = null;
